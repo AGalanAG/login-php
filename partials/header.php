@@ -1,6 +1,6 @@
 <header class="navbar" >
   <div class="container-fluid">
-    <a class="navbar-brand text-white " href="/php-login-simple-master">
+    <a class="navbar-brand text-white " href="/login-php">
       <img src="img/logo2.png" width="60" height="60" class="d-inline-block align-text-bottom">
        Gaming Fact
     </a>

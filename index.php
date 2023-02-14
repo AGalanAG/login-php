@@ -52,7 +52,7 @@
     <!-- Barra de Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand"  href="/php-login-simple-master">
+        <a class="navbar-brand"  href="/login-php">
           <img src="img/logo2.png" width="60" height="60">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

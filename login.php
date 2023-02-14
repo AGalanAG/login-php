@@ -3,7 +3,7 @@
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: /php-login-simple-master/php-login');
+    header('Location: /php-login');
   }
   require 'database.php';
 
@@ -17,7 +17,7 @@
 
     if ($results !=null && count($results) >0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: /php-login-simple-master");
+      header("Location: /login-php");
     } else {
       $message = 'Lo sentimos, tu usuario no esta registrado!';
     }
